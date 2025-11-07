@@ -3,7 +3,13 @@ body{
     margin: 0;  
     background-color: #121212;
 }
-   
+ 
+.content{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: left;
+}
+
 h1{
     font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
     font-size: 75px;
@@ -15,9 +21,14 @@ h1{
 
 }
 
-  .content{
-    margin-left: 10vw;
-    margin-right: 10vw;
+p{
+    font-family: "Segoe UI", Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    color: rgb(243, 243, 243);
+
 }
 
 .navbar{
