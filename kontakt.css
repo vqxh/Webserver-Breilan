@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #121212;
-  }
+}
    
 .content{
     margin-left: 10vw;
@@ -17,7 +17,7 @@ h1{
     margin-bottom: 75px;
     color: rgb(243, 243, 243);
 
-  }
+}
 .container{
     color: rgb(243, 243, 243);
     background-color: rgb(65, 59, 59);
@@ -47,7 +47,7 @@ label{
     padding-left: 30px;
 }
 
-.navbar {
+.navbar{
     width: 100%;
     background-color: #1a1a1a;
     position: fixed;
@@ -55,7 +55,7 @@ label{
     left: 0;
     z-index: 999;
     padding: 15px 0;
-  }
+}
   
 .navbar ul {
     list-style: none;
@@ -64,9 +64,9 @@ label{
     gap: 30px;
     margin: 0;
     padding: 0;
-  }
+}
   
-.navbar a {
+.navbar a{
     text-decoration: none;
     color: rgb(243, 243, 243);
     font-size: 20px;
@@ -74,12 +74,9 @@ label{
     background: none;
     padding: 0;
     border-radius: 0;
-  }
-  
-.navbar a:hover {
-    color: #4595a3;
-  }
-
-.navbar a:click{
-    color: #121212;
 }
+  
+.navbar a:hover{
+    color: #4595a3;
+}
+
