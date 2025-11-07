@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; 
+  margin: 0;   
+  background-color: #121212; 
+}
+
+h1 {
+  color: rgb(243, 243, 243);
+  font-family: "Segoe UI", Tahoma, Geneva, sans-serif; 
+  font-size: 75px;
+  margin-top: 40px; 
+  text-align: center; 
+  margin-top: 50px; 
+  margin-bottom: 75px; 
+}
+
+.content {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+
+.navbar {
+  width: 100%;
+  background-color: #1a1a1a;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(243, 243, 243);
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.navbar a:hover {
+  color: #4595a3;
+}
+
+
+
+
+#section1 {
+  background-color: #313131; 
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  
+}
+
+#section1 h2 {
+  color: rgb(243, 243, 243);
+} 
+
+#section1 p {
+  color: rgb(243, 243, 243);
+}
+
+
+h2 {
+  font-size: clamp(20px, 3vw, 35px); /* responsiv fontstørrelse */
+  margin-top: 40px; 
+  margin-bottom: 30px; 
+}
+
+p {
+  font-size: clamp(18px, 3vw, 20px); /* responsiv fontstørrelse */
+  line-height: 1.6; 
+  margin-bottom: 20px;
+}
