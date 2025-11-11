@@ -63,3 +63,19 @@ p{
 .navbar a:hover{
     color: #4595a3;
 }
+
+#section1{
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    
+}
+  
+  #section1 h2{
+    color: rgb(243, 243, 243);
+} 
+  
+  #section1 p {
+    color: rgb(243, 243, 243);
+}
